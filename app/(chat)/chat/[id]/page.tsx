@@ -52,7 +52,6 @@ export default async function ChatPage({ params }: ChatPageProps) {
       <Chat
         id={chat.id}
         session={session}
-        initialMessages={chat.messages}
         missingKeys={missingKeys}
       />
     </AI>
